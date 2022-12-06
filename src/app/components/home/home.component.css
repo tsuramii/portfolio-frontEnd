@@ -1,3 +1,12 @@
 .row {
-    height: 90vh;
+  height: 90vh;
+}
+
+.profilePhoto img {
+  width: 200px;
+  height: auto;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #0093e9 0%, #80d0c7 100%) border-box;
+  border-radius: 50em;
+  border: 10px solid transparent;
 }
