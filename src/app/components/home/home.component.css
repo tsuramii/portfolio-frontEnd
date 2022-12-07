@@ -1,12 +1,30 @@
 .row {
-  height: 90vh;
+  height: 100vh;
 }
-
+/* Foto de Perfil */
 .profilePhoto img {
   width: 200px;
   height: auto;
-  background: linear-gradient(black, black) padding-box,
-    linear-gradient(to right, #0093e9 0%, #80d0c7 100%) border-box;
+
   border-radius: 50em;
-  border: 10px solid transparent;
+  border-style: solid;
+  border-color: rgba(30, 30, 30, 0.39);
+  border-width: 10px;
+}
+
+/* Sobre Mi */
+.card {
+  max-width: 60rem;
+  /* From https://css.glass */
+  background: rgba(30, 30, 30, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  border: 1px solid rgba(30, 30, 30, 0.2);
+}
+
+/* Home */
+.home {
+  background-image: url(../../../assets/background.jpg);
 }
