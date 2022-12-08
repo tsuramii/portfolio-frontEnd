@@ -5,12 +5,20 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { HardsoftSkillsComponent } from './components/hardsoft-skills/hardsoft-skills.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    HardsoftSkillsComponent,
+    ProyectosComponent
   ],
   imports: [
     NgbCollapseModule,
