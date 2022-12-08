@@ -1,9 +1,13 @@
 /* Logo */
 #logoAP {
-  padding: 10px;
-  width: 150px;
+  padding-left: 10px;
+  padding-top: 0;
+  width: 110px;
 }
 /* Social */
 .social-list svg {
-  margin: 10px 10px;
+  margin: 0 10px;
+}
+.navbar-nav{
+  font-size: smaller;
 }
