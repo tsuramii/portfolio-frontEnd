@@ -1,0 +1,24 @@
+.logo img {
+  border-radius: 0.5em;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+}
+.experiencia {
+  background-color: #1b1e22;
+}
+
+.card-title {
+  color: #da7b33;
+}
+
+.container {
+  height: fit-content;
+}
+
+a {
+  color: #718bc8;
+}
+.title {
+  color: #E2E7F3;
+}
