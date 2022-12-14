@@ -1,0 +1,13 @@
+.educacion {
+  background: rgb(32, 34, 53);
+  background: linear-gradient(
+    145deg,
+    rgba(32, 34, 53, 1) 0%,
+    rgba(113, 139, 200, 1) 100%
+  );
+  height: fit-content;
+}
+
+.card-title {
+  color: #5AB84E;
+}
