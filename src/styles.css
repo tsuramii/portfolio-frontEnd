@@ -36,3 +36,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #A4693D;
 }
+
+/* navbar margin fix */
+:target {
+  scroll-margin-top: 60px;
+}
