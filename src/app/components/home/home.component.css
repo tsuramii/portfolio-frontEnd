@@ -15,8 +15,8 @@
 .card {
   max-width: 60rem;
 }
-/* Home */
-.home {
+/* aboutMe */
+#aboutMe {
   background-image: url(../../../assets/background.jpg);
 }
 
