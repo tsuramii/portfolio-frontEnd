@@ -1,0 +1,1 @@
+-fix the logos colums in experience component
