@@ -11,6 +11,8 @@ import { HardsoftSkillsComponent } from './components/hardsoft-skills/hardsoft-s
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { HttpClientModule } from '@angular/common/http';
     EducacionComponent,
     HardsoftSkillsComponent,
     ProyectosComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    AboutMeComponent
   ],
   imports: [
     NgbCollapseModule,
