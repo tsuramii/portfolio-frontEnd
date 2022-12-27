@@ -1,9 +1,15 @@
 /* background */
 #login{
-    height: 97vh;
-    /* placeholder */
-    background-color: #8EC5FC;
+    height: 93.5vh;
+    background: rgb(18,20,23);
+    background: linear-gradient(150deg, rgba(18,20,23,1) 50%, rgba(27,30,34,1) 50%);
 }
+.login-form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
 
 .form-group{
     padding: 0.5em 0;
@@ -44,12 +50,13 @@ input::placeholder {
 /* Button */
 .btn.btn-primary {
     background: #718bc8 !important;
-    border: 1px solid #718bc8 !important;
+    border: none !important;
     color: #000 !important;
 }
 .btn.btn-primary:hover{
-    background: #4F6FBA !important;
-    color:white !important
+    background: #2C325F !important;
+    color:white !important;
+    border: none !important;
 }
 /* Registro */
 a {
