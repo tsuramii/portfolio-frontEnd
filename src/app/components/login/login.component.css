@@ -59,10 +59,17 @@ input::placeholder {
     border: none !important;
 }
 /* Registro */
-a {
+p > a {
     color: #718bc8;
 }
 
-a:hover{
+p > a:hover{
    color: #3F5CA2;
 }
+/* Home */
+.home-button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0.8rem;
+  }
