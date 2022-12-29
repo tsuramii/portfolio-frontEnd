@@ -1,0 +1,46 @@
+<section id="register">
+    <!-- Home button -->
+    <a type="button" href="/" class="btn btn-outline-light btn-sm home-button">Inicio</a>
+    <div class="login-form row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+            <div class="container text-center">
+                <h3 class="mb-4">Registrate ahora</h3>
+                <form action="#" class="signup-form">
+                    <!-- Name and Surname -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Nombre" class="form-control" required />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" id="surname" placeholder="Apellido" class="form-control" required />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- User input -->
+                    <div class="form-group field">
+                        <input type="text" class="form-control" placeholder="Nombre de usuario" required>
+                    </div>
+                    <!-- Email -->
+                    <div class="form-group field">
+                        <input type="email" class="form-control" placeholder="E-Mail" required>
+                    </div>
+                    <!-- Password input -->
+                    <div class="form-group">
+                        <input id="password-field" type="password" class="form-control" placeholder="Contraseña"
+                            required>
+                        <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                    </div>
+                    <!-- Submit button -->
+                    <div class="form-group">
+                        <button type="submit" class="form-control btn btn-primary submit px-3">Registrarse</button>
+                    </div>
+                </form>
+                <p>¿Ya tenés cuenta? <a href="/login">Iniciá sesión</a> </p>
+            </div>
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     ProyectosComponent,
     FooterComponent,
     LoginComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    RegisterComponent
   ],
   imports: [
     NgbCollapseModule,
